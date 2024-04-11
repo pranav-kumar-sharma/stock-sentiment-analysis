@@ -1,9 +1,8 @@
 # stock-sentiment-analysis
 
 ```markdown
-# Building News Sentiment and Stock Price Performance Analysis NLP Application With Python
-
-In this tutorial, we will explore a fintech idea that combines news sentiment analysis and stock trading to make news more actionable for algorithmic trading. This tutorial presents a step-by-step guide on how to engineer a solution that leverages a market data API and a sentiment score to demonstrate any correlation between news sentiment and stock price performance.
+# Building News Sentiment and Stock Price Performance Analysis NLP Application With Python 
+In this project, we will explore a fintech idea that combines news sentiment analysis and stock trading to make news more actionable for algorithmic trading. This tutorial presents a step-by-step guide on how to engineer a solution that leverages a market data API and a sentiment score to demonstrate any correlation between news sentiment and stock price performance.
 
 Traders thrive on having instant access to information that enables them to make quick decisions. Consider a scenario where a trader can promptly identify and access news that directly impacts the performance of their stocks, referred to as investor sentiment. However, reading through articles and discerning the content can be time-consuming and may result in missed opportunities. Imagine if traders could receive immediate notifications within their order management software (OMS) whenever a stock they want to trade receives positive media coverage, which could potentially influence the stock price. This idea also presents the opportunity of automating buy/sell decisions by integrating real-time news sentiment scoring into algorithmic strategies.
 
@@ -12,7 +11,7 @@ This application relies on a market data provider that offers stock price histor
 
 ## Data Sources
 
-For this tutorial, we will acquire a news feed and stock price history from the Mboum Finance API market data provider available on the Rapid API Hub. We will make use of two API endpoints: "stock/history/{stock}/{interval}" for retrieving stock price history and "market/news/{stock}" for obtaining the stock news feed.
+we will acquire a news feed and stock price history from the Mboum Finance API market data provider available on the Rapid API Hub. We will make use of two API endpoints: "stock/history/{stock}/{interval}" for retrieving stock price history and "market/news/{stock}" for obtaining the stock news feed.
 
 
 ## Implementation
@@ -29,5 +28,3 @@ Once the user submits the ticker, the form invokes the Python Flask `/analyze` A
 8. Render consolidated results in the `analysis.html` template.
 
 
-## Result Visualization
-![Trading](https://raw.githubusercontent.com/dshilman/stock-sentiment-analysis/master/trading.png)
